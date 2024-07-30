@@ -1,0 +1,13 @@
+# Dependencies
+/node_modules
+
+# build files
+/build
+
+# local files
+.env
+
+# Logs and debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

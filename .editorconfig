@@ -1,0 +1,18 @@
+# Backend .editorconfig
+
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+# For more information about the properties used in this file, please visit
+# https://editorconfig.org
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{js,ts,json}]
+charset = utf-8
+
+[**/node_modules/**, **/dist/**]
+charset = utf-8
