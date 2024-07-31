@@ -13,7 +13,7 @@ const API_KEY = process.env.ALPHA_VANTAGE_API_KEY;
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://chart-the-stock-market-frontend.vercel.app',
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
